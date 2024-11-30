@@ -15,6 +15,11 @@ button {
   cursor: pointer;
 }
 
+.visually-hidden {
+  visibility: hidden;
+  display: none;
+}
+
 /* #region Header */
 .header-page {
   background-color: #fff;
@@ -100,17 +105,17 @@ button {
   background-color: #fff;
 }
 .section-advantages .section-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 .section-list {
 }
 .item-list {
 }
 .title-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .section-advantages .text-list {
   font-weight: 400;
