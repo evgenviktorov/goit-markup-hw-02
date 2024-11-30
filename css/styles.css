@@ -1,5 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 a {
@@ -17,7 +19,6 @@ button {
 
 .visually-hidden {
   visibility: hidden;
-  display: none;
 }
 
 /* #region Header */
@@ -30,7 +31,7 @@ button {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -56,13 +57,13 @@ button {
 }
 
 .header-adr {
+  font-style: normal;
 }
 .header-adr-list {
 }
 .item-adr-list {
 }
 .item-adr-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -138,8 +139,10 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .section-list {
+  background-color: #ffffff;
 }
 .item-list {
 }
@@ -181,6 +184,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .text-list {
   font-weight: 400;
