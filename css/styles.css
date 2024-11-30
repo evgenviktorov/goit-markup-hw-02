@@ -104,11 +104,12 @@ button {
 
 /* #region Section Advantages */
 .section-advantages {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .section-advantages .section-title {
 }
 .section-list {
+  background-color: #ffffff;
 }
 .item-list {
 }
